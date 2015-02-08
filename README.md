@@ -7,7 +7,7 @@ Steps to download manga
 -----------------------
 
 * Open "mangapanda-downloader.ps1" using notepad / text editor.
-* Edit __$manga_name__ variable, for example "naruto" manga:
+* Edit _$manga_name_ variable, for example "naruto" manga:
 ```
     $manga_name = 'naruto'
     $chapter_start = 1
