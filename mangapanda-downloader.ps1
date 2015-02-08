@@ -1,12 +1,23 @@
 
-$manga_name = 'naruto'
+# YOU MUST SPECIFY $manga_name, $chapter_start and $chapter_end
 
+$manga_name = 'naruto'
 $chapter_start = 1
 $chapter_end = 700
 
 
+
+
+
+
+
+
+###############################
+# DO NOT EDIT BELOW THIS LINE #
+###############################
+
 $url = "http://www.mangapanda.com/$($manga_name)"
-$local_path = 'd:\Naruto\'
+$local_path = "d:\$($manga_name)"
 
 
 $webclient = New-Object System.Net.WebClient
