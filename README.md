@@ -6,21 +6,21 @@ mangapanda-downloader
 Steps to download manga
 -----------------------
 
-1. Open "mangapanda-downloader.ps1" using notepad / text editor.
-2. Edit $manga_name variable, for example "naruto" manga:
+* Open "mangapanda-downloader.ps1" using notepad / text editor.
+* Edit $manga_name variable, for example "naruto" manga:
 ```
     $manga_name = 'naruto'
     $chapter_start = 1
     $chapter_end = 700
     $local_drive = 'd:'
 ```
-3. Open Windows PowerShell command prompt
+* Open Windows PowerShell command prompt
 
-4. Run the script:
+* Run the script:
 ```
     .\mangapanda-downloader.ps1
 ```
-5. All file will be downloaded at "d:\naruto"
+* All file will be downloaded at "d:\naruto"
 
 
 System Requirements
