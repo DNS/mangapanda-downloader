@@ -16,9 +16,9 @@ Steps to download manga
 3. Open Windows PowerShell command prompt
 
 4. Run the script:
-
+```
 	.\mangapanda-downloader.ps1
-
+```
 5. All file will be downloaded at "d:\naruto"
 
 
