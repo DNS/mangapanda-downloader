@@ -2,7 +2,7 @@
 # YOU MUST SPECIFY $manga_name, $chapter_start and $chapter_end
 
 $manga_name = 'naruto'
-$chapter_start = 1
+$chapter_start = 695
 $chapter_end = 700
 $local_drive = 'd:'
 
@@ -36,12 +36,12 @@ For($j=$chapter_start; $j -le $chapter_end; $j++) {
 		
 		
 		$result = $html_string -match 'src="(.*?)\.jpg"';
-		$remote_file = "$matches[1].jpg"
+		$remote_file = "$($matches[1]).jpg"
 		
 		$file = "$local_path\$j-$i.jpg"
 		Write-Host "$file of $total_pages"
 		
-		<#
+		
 		do {
 			try {
 				$result = $true
