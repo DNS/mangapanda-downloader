@@ -19,15 +19,13 @@ Steps to download manga
 
     .\mangapanda-downloader.ps1
 
-5. All file will be downloaded at "d:\naruto"
+5. All file will be saved to "d:\naruto"
 
 
 System Requirements
 -------------------
 
 - Windows 7/8 or higher
-- Windows Vista with Service Pack 1
-- Windows Server 2003 with Service Pack 2
-- Windows XP with Service Pack 3
+- Windows Server 2008 or higher
 
 
