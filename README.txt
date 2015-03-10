@@ -19,7 +19,7 @@ Steps to download manga
 
 	.\mangapanda-downloader.ps1
 
-5. All file will be saved to "d:\naruto"
+5. All files will be saved to "d:\naruto"
 
 
 System Requirements
